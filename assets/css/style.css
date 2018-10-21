@@ -1,0 +1,124 @@
+body {
+    /* background color: #607F60
+    color: #1D261D 
+    width: 98%;
+    margin: 0 auto; */
+    margin: 0; 
+    /* position: static; */ 
+    font-family: 'Jockey One', sans-serif;
+    background-image: url("../images/bananas.png")
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.header {
+    /* margin: 0 auto; */
+    width: 100%;
+    top: 0; 
+    padding: 0.2px; 
+    /* border: 1px #7DAA9D; */
+    background-color: #7DAA9D;  
+    font-size: 35px;
+    text-align: center; 
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.container{
+    width: 98%; 
+    margin: 0 auto; 
+    margin-top: 10px; 
+}
+
+.instructions{
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px; 
+    text-align: left;
+    padding: 5px; 
+    /* margin-top: 0 px;
+    border: 15px #A9BDA9;
+    background-color: #A9BDA9; */ 
+    border: 15px #FFF4B2;
+    background-color: #FFF4B2; 
+    font-size: 15px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#crystals{
+    position: absolute; 
+    display: inline-block; 
+    width: 55%; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* object-fit: contain; */
+} 
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* .right{
+    width: 18%; 
+    margin-right: 10px; 
+    top: 0px; 
+    float: right; 
+    text-align: right; 
+    padding: 5px; 
+    border: 15px #7DB785;
+    background-color: #7DB785; 
+} */ 
+
+.score {
+    width: 18%; 
+    margin-top: 10px; 
+    margin-right: 10px; 
+    top: 0px; 
+    float: right; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    border: 15px #5A7984;
+    background-color: #5A7984;
+}
+
+.total{
+    font-size: 18px; 
+}
+
+.scores{
+    font-size: 20px; 
+}
+
+/* ------------------------------------------------------- */
+
+.targetNumber{
+    width: 18%; 
+    margin-top: 10px; 
+    margin-right: 10px; 
+    top: 0px; 
+    float: right; 
+    text-align: center; 
+    border: 15px #7DA8B7;
+    background-color: #7DA8B7;
+    font-size: 18px; 
+}
+
+#targetNumber{
+    font-size: 30px; 
+}
+
+/* ------------------------------------------------------- */
+
+.footer{ 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%;
+    height: 30px;
+    background-color: #507575;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+}

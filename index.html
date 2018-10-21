@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>crystal collector</title>
+
+    <link rel="icon" href="https://www.rd.com/wp-content/uploads/2017/08/12_crystal_Reasons-Why-You-Should-Give-Crystals-a-Try_364248173_Abra-Cadabraaa-380x254.jpg">
+
+    <link rel="styleshee" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>CRYSTAL COLLECTOR</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="instructions">
+
+            <p>Instructions: You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You will win the game by matching your total scored to random numbers, you lose the game is your total score goes above or below the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</p>
+
+        </div>
+
+        <div id="crystals">
+            
+            <img class="crystalPics" id="pinkCrystal" src="assets/images/crystal1.jpg" alt="pinkCrystal" width="150" height="150">
+            
+            <img class="crystalPics" id="blueCrystal" src="assets/images/crystal2.jpg" alt="blueCrystal" width="150" height="150">
+            
+            <img class="crystalPics" id="purpleCrystal" src="assets/images/crystal3.jpg" alt="purpleCrystal" width="150" height="150">
+                    
+            <img class="crystalPics" id="greenCrystal" src="assets/images/crystal4.jpg" alt="greenCrystal" width="150" height="150">
+
+        </div>
+
+        <div class="score">
+                            
+            <div class="total">
+                <h2>Total: </h2>
+                <span id="yourTotal"></span>
+            </div>
+                                    
+            <div class="scores">
+                <p>wins: <span id="wins"></span></p>
+                <p>losses: <span id="losses"></span></p>
+            </div>             
+
+        </div>    
+
+        <div class="targetNumber">
+            <h2>Number to Guess: </h2>
+            <span id="targetNumber"></span>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        Copyright &copy;
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
